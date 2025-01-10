@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --dark-start-gray: #e8eaed;
+    --light-star-gray: #454545;
+
+    --dark-background: #121212;
+    --light-background: #ffffff;
+
+    --dark-font-color: #ffffff;
+    --light-font-color: #000000;
+
+    --light-transparent-gray-background: rgba(232, 234, 237, 0.5);
+    --dark-transparent-gray-background: rgba(232, 234, 237, 0.1);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.dark-mode body {
+    color: var(--dark-font-color);
+    background-color: var(--dark-background);
+}
+
+.light-mode body {
+    color: var(--light-font-color);
+    background-color: var(--light-background);
+}
